@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -151,4 +153,46 @@ body {
   font-size: 24px;
   color: #1f2937;
   font-weight: bold;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 60px 130px;
+  margin: 100px 400px;
+  border-radius: 8px;
+}
+
+.call-to-action-header {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.call-to-action-description {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.699);
+}
+
+.call-to-action button {
+  background-color: #3882f6;
+  font-size: 18px;
+  color: white;
+  padding: 8px 36px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: white;
+  font-weight: bold;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 400px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
 }
