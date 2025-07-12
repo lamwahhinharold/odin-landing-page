@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -8,12 +10,15 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.section {
+  padding: 16px 400px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
-  padding: 16px 300px;
 }
 
 .logo {
@@ -27,10 +32,59 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
-  gap: 16px;
+  gap: 32px;
 }
 
 .links-container a {
   text-decoration: none;
+  font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 400px;
+  gap: 48px;
+}
+
+.description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.description h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.description p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.description button {
+  align-self: flex-start;
+  background-color: #3882f6;
+  font-size: 18px;
+  color: #f9faf8;
+  border: none;
+  padding: 8px 36px;
+  border-radius: 8px;
+}
+
+.image {
+  flex: 1;
+  background-color: rgb(109, 116, 125);
+  height: 250px;
+  width: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
