@@ -10,15 +10,12 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.section {
-  padding: 16px 400px;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
+  padding: 48px 400px;
 }
 
 .logo {
@@ -48,6 +45,7 @@ body {
   background-color: #1f2937;
   height: 400px;
   gap: 48px;
+  padding: 0px 400px 48px 400px;
 }
 
 .description {
@@ -90,12 +88,15 @@ body {
   align-items: center;
 }
 
+.information {
+  padding: 48px 400px;
+}
+
 .information h2 {
   text-align: center;
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
-  margin: 48px;
 }
 
 .information-container {
@@ -103,8 +104,10 @@ body {
   gap: 48px;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  margin: 48px;
 }
+
 .contained-information {
   display: flex;
   flex-direction: column;
@@ -125,4 +128,27 @@ body {
 .information-text {
   text-align: center;
   color: rgba(0, 0, 0, 0.705);
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #e5e7eb;
+  padding: 150px 550px;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  align-self: center;
+}
+
+.quote-source {
+  align-self: flex-end;
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: bold;
 }
